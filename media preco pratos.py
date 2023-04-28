@@ -12,7 +12,7 @@ while escolha != 4:
         pratoadd = float(input("Qual o peso do prato adicionado? \n "))
         somaprato += pratoadd
         nprato += 1
-        pratos.append=[pratoadd]
+        pratos.append(pratoadd)
         print("Prato adicionado")
     
     elif escolha == 2:
