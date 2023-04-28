@@ -1,15 +1,15 @@
 pratos = []
 pratoadd = 0
 media = 0
-escolha = 0
+escolha = ''
 somaprato = 0
 nprato = 0
 
 while escolha != 4:
-    escolha = int(print("O que você deseja fazer? \n [1] Pesar prato \n [2] Verificar os pratos \n [3] Verificar a média \n [4] Sair"))
+    escolha = int(input("O que você deseja fazer? \n [1] Pesar prato \n [2] Verificar os pratos \n [3] Verificar a média \n [4] Sair \n"))
     
     if escolha == 1:
-        pratoadd = float(print("Qual o peso do prato adicionado? \n "))
+        pratoadd = float(input("Qual o peso do prato adicionado? \n "))
         somaprato += pratoadd
         nprato += 1
         pratos.append=[pratoadd]
