@@ -31,7 +31,9 @@ while escolha != 4:
         else:
             print("Nenhum prato foi pesado até agora")
     
+    elif escolha == 4:
+        print("Você escolheu sair do programa, volte sempre!")
+        
     else:
         print("Escolha inválida")
 
-print("Você escolheu sair do código, volte sempre!")
